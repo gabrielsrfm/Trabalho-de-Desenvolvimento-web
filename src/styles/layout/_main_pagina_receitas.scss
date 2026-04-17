@@ -1,0 +1,53 @@
+// importação de variaveis
+@use '../abstracts/variaveis';
+
+/* 
+  configuração padrão das paginas de receitas: 
+  - disposição das imagens 
+  - texto (tamanho, cor, tipo)
+  - configuração da responsividade desses
+  - configuração 
+*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.receita {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.receita img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  object-fit: cover;
+}
+
+.ingredientes,
+.modo_de_preparo {
+  margin: 20px 0;
+  padding-left: 25px;
+}
+
+.ingredientes li,
+.modo_de_preparo li {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #4a2e2e;
+  border-bottom: 2px solid #d2b48c;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}

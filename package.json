@@ -1,0 +1,31 @@
+{
+  "name": "trabalho-de-desenvolvimento-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "",
+    "sass": "sass src/styles/imput.scss src/styles/output.css",
+    "sass_dev": "sass --watch src/styles/imput.scss src/styles/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leosouza-devv/Trabalho-de-Desenvolvimento-web.git"
+  },
+  "keywords": [
+    "comidas",
+    "receitas",
+    "webpage",
+    "ingredientes"
+
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leosouza-devv/Trabalho-de-Desenvolvimento-web/issues"
+  },
+  "homepage": "https://github.com/Leosouza-devv/Trabalho-de-Desenvolvimento-web#readme",
+  "devDependencies": {
+    "sass": "^1.99.0"
+  }
+}

@@ -1,0 +1,64 @@
+
+// importação da pasta - /base
+@import 'base/reset';
+
+// importação da pasta - /layout
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/main_pagina_receitas';
+
+// importação da pasta - /pages/receitas_de_massas
+
+@import 'pages/receita_de_massas/panquecas';
+
+
+// importação da pasta - /pages/receitas_de_paes
+
+@import 'pages/receita_de_paes/pao_de_queijo';
+
+// importação da pasta - /pages/receitas_de_bolos
+
+@import 'pages/receita_de_bolos/cenoura_chocolate';
+@import 'pages/receita_de_bolos/chocolate_simples';
+
+// importação da pasta - /abstracts 
+@import 'abstracts/variaveis';
+
+
+/*----------------------------------------------------------------------------------------*/
+
+// código global
+
+
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* Fundo com imagem, centralizado e fixo (Instruções da Aula [cite: 16, 17]) */
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  background-color: #d2b48c;
+  background-attachment: fixed;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav{
+  a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s;
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+}
+
+
+
+

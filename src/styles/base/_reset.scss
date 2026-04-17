@@ -1,0 +1,32 @@
+/* Reset CSS moderno */
+
+/* Remove margens e paddings padrão */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ajusta altura padrão */
+html, body {
+  height: 100%;
+}
+
+/* Melhora renderização de texto */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Remove estilos padrão de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove decoração de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}

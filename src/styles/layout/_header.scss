@@ -1,0 +1,40 @@
+
+// importação de variaveis
+@use '../abstracts/variaveis';
+
+/* estilização do cabeçalho */
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: variaveis.$background;
+  color: variaveis.$text;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+  nav, ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li > a{
+      padding: 10px;
+      transition: ease-in-out .2s;
+      text-decoration: none;
+      background-color: #30353e;
+      border-radius: 20px;
+
+      &:hover{
+        background-color: #fffdf5;
+        color: black;
+        text-align: center;
+
+      }
+    }
+
+  }
+
+}
+
+
