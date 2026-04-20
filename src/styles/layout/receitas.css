@@ -18,9 +18,11 @@ main.receitas {
 .introdução h1 {
   font-family: var(--font-titulo);
   font-size: clamp(2rem, 5vw, 2.8rem);
-  font-weight: 700;
+  font-weight: bold;
   color: var(--primary);
   line-height: 1.15;
+  padding: 30px 0 20px 0;
+  text-align: center;
 }
 
 .introdução p {

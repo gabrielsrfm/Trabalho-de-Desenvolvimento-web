@@ -105,7 +105,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 64px;
-      align-items: center;
+      align-items: center; 
     }
 
     .about-text h2 {
@@ -158,9 +158,51 @@
       color: var(--secondary);
     }
 
+
+    /* ── DESENVOLVEDORES  ─────────────────────── */
+
+    .about_estudant{
+      padding: 50px 20px;
+      background-color: #ffebdf;
+      div.aluno{
+        div.image{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img{
+            border-radius: 20px;
+
+            min-width: 300px;
+            max-width: 300px;
+            min-height:300px ;
+            max-height: 300px;
+             
+          }
+        }
+        .about-text{
+          div.links{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            a{
+              padding: 10px;
+              background-color: var(--primary);
+              color: var(--fff);
+              border-radius: 20px;
+              transition: ease-in-out .2s;
+              &:hover{
+                transform: scale(1.1);
+                background-color: var(--secondary);
+              }
+            }
+          }
+        }
+      }
+    }
+
     /* ── SEÇÕES (CATEGORIAS) ─────────────────────── */
     .categories {
-      background-color: var(--fff);
+      background-color: #d0a68c;
       padding: 80px 32px;
     }
 

@@ -1,156 +1,280 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabor & Arte — Gastronomia com Alma</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sabor & Arte — Gastronomia com Alma</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
-    rel="stylesheet" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/base/reset.css" />
+    <link rel="stylesheet" href="./src/styles/global.css" />
 
-  <link rel="stylesheet" href="./src/styles/index.css">
-  <link rel="stylesheet" href="./src/styles/base/reset.css">
-  <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/layout/header.css" />
+    <link rel="stylesheet" href="./src/styles/layout/footer.css" />
+  </head>
 
-  <link rel="stylesheet" href="./src/styles/layout/header.css">
-  <link rel="stylesheet" href="./src/styles/layout/footer.css">
+  <body>
+    <!-- header - navbar-->
+    <header>
+      <nav>
+        <a class="nav-logo" href="#">Sabor &amp; Arte</a>
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#receitas">Receitas</a></li>
+        </ul>
+      </nav>
+    </header>
 
-
-
-
-</head>
-
-<body>
-
-  <!-- header - navbar-->
-  <header>
-    <nav>
-      <a class="nav-logo" href="#">Sabor &amp; Arte</a>
-      <ul class="nav-links">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#receitas">Receitas</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-bg"></div>
-      <div class="hero-content">
-        <p class="hero-eyebrow">Gastronomia com alma</p>
-        <h1 class="hero-title">
-          Receitas feitas com<br><em>amor e tradição</em>
-        </h1>
-        <p class="hero-subtitle">
-          Um espaço criado por apaixonados pela cozinha para compartilhar receitas
-          autênticas, dicas práticas e o prazer de cozinhar bem.
-        </p>
-        <a href="#receitas" class="hero-cta">Explorar receitas</a>
-      </div>
-    </section>
-
-    <span id="sobre"></span>
-    <!-- SOBRE -->
-    <section class="about">
-      <div class="about-text">
-        <h2>Quem somos nós?</h2>
-        <p>
-          Somos estudantes apaixonados por gastronomia que acreditam que cozinhar é
-          muito mais do que seguir uma lista de ingredientes — é contar histórias,
-          preservar culturas e criar memórias afetivas.
-        </p>
-        <p>
-          Neste espaço reunimos receitas testadas, técnicas acessíveis e curiosidades
-          sobre o universo culinário para inspirar tanto iniciantes quanto cozinheiros
-          experientes.
-        </p>
-      </div>
-      <div class="about-visual">
-        <div class="about-tile">
-          <span class="icon">🌾</span>
-          <span>Ingredientes naturais</span>
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+          <p class="hero-eyebrow">Gastronomia com alma</p>
+          <h1 class="hero-title">
+            Receitas feitas com<br /><em>amor e tradição</em>
+          </h1>
+          <p class="hero-subtitle">
+            Um espaço criado por apaixonados pela cozinha para compartilhar
+            receitas autênticas, dicas práticas e o prazer de cozinhar bem.
+          </p>
+          <a href="#receitas" class="hero-cta">Explorar receitas</a>
         </div>
-        <div class="about-tile">
-          <span class="icon">📖</span>
-          <span>Receitas testadas</span>
-        </div>
-        <div class="about-tile">
-          <span class="icon">🍽️</span>
-          <span>Passo a passo claro</span>
-        </div>
-        <div class="about-tile">
-          <span class="icon">❤️</span>
-          <span>Feito com amor</span>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- CATEGORIAS -->
-    <section class="categories" id="receitas">
-      <div class="section-header">
-        <span class="tag">Nossas categorias</span>
-        <h2>O que você quer preparar hoje?</h2>
-      </div>
-
-      <div class="cards-grid">
-
-        <a href="src/pages/receita_de_paes/index_paes.html" class="card card-paes">
-          <div class="card-thumb">🍞</div>
-          <div class="card-body">
-            <h3>Pães</h3>
-            <p>
-              Do pão caseiro rústico ao brioche aerado — aprenda a fermentar,
-              sovar e assar pães incríveis em casa.
-            </p>
-            <span class="card-link">Ver receitas →</span>
+      <span id="sobre"></span>
+      <!-- SOBRE -->
+      <section class="about">
+        <div class="about-text">
+          <h2>Quem somos nós?</h2>
+          <p>
+            Somos estudantes apaixonados por gastronomia que acreditam que
+            cozinhar é muito mais do que seguir uma lista de ingredientes — é
+            contar histórias, preservar culturas e criar memórias afetivas.
+          </p>
+          <p>
+            Neste espaço reunimos receitas testadas, técnicas acessíveis e
+            curiosidades sobre o universo culinário para inspirar tanto
+            iniciantes quanto cozinheiros experientes.
+          </p>
+        </div>
+        <div class="about-visual">
+          <div class="about-tile">
+            <span class="icon">🌾</span>
+            <span>Ingredientes naturais</span>
           </div>
-        </a>
-
-        <a href="src/pages/receita_de_bolos/index_bolos.html" class="card card-bolos">
-          <div class="card-thumb">🎂</div>
-          <div class="card-body">
-            <h3>Bolos</h3>
-            <p>
-              Bolos simples de batedeira, naked cakes sofisticados e tudo que
-              faz uma sobremesa virar memória afetiva.
-            </p>
-            <span class="card-link">Ver receitas →</span>
+          <div class="about-tile">
+            <span class="icon">📖</span>
+            <span>Receitas testadas</span>
           </div>
-        </a>
-
-        <a href="src/pages/receita_de_massas/index_massas.html" class="card card-massas">
-          <div class="card-thumb">🍝</div>
-          <div class="card-body">
-            <h3>Massas</h3>
-            <p>
-              Macarrão artesanal, molhos clássicos e combinações que transformam
-              a hora do jantar em algo especial.
-            </p>
-            <span class="card-link">Ver receitas →</span>
+          <div class="about-tile">
+            <span class="icon">🍽️</span>
+            <span>Passo a passo claro</span>
           </div>
-        </a>
+          <div class="about-tile">
+            <span class="icon">❤️</span>
+            <span>Feito com amor</span>
+          </div>
+        </div>
+      </section>
 
-      </div>
-    </section>
-  </main>
+      <!-- SOBRE NÓS ALUNOS -->
+      <section class="about_estudant">
+        <div class="section-header">
+          <span class="tag">Desenvolvedores</span>
+          <h2>Venha nos conhecer melhor</h2>
+        </div>
+        <div class="aluno about">
+          <div class="about-text">
+            <h2>Leonardo S. Souza</h2>
+            <p>
+              Somos estudantes apaixonados por gastronomia que acreditam que
+              cozinhar é muito mais do que seguir uma lista de ingredientes — é
+              contar histórias, preservar culturas e criar memórias afetivas.
+            </p>
+            <p>
+              Neste espaço reunimos receitas testadas, técnicas acessíveis e
+              curiosidades sobre o universo culinário para inspirar tanto
+              iniciantes quanto cozinheiros experientes.
+            </p>
+            <div class="links">
+              <a href="https://www.linkedin.com/in/leonardo-s-souza-a054703aa/"
+                >LinkediIn</a
+              >
+              <a href="https://github.com/Leosouza-devv">GitHub</a>
+              <a href="https://www.instagram.com/leosouza.devv/">Instagram</a>
+            </div>
+          </div>
+          <div class="image">
+            <img src="public/Leonardo.png" alt="Leonardo soares de souza" />
+          </div>
+        </div>
+        <!-- -------------------------------------------------------------- -->
+        <div class="aluno about">
+          <div class="about-text">
+            <h2>Gabriel Serafim</h2>
+            <p>
+              Estudante de Engenharia de Software na Univassouras, focado em
+              criar uma base fullstack sólida. Gosto de entender como tudo
+              funciona, além dos códigos. Uso JavaScript para criar soluções
+              reais e funcionais.
+            </p>
+            <p>
+              Prefiro aprender na prática do que assistir a vídeos. Errar,
+              debugar e construir projetos do zero é meu método. Essa é a forma
+              como absorvo conhecimento e me preparo para os desafios do
+              mercado.
+            </p>
+            <div class="links">
+              <a
+                href="https://www.linkedin.com/in/gabrielserafim-dev/?skipRedirect=true"
+                >LinkediIn</a
+              >
+              <a href="https://github.com/gabrielsrfm">GitHub</a>
+              <a href="https://www.instagram.com/gabrielserafim.dev/"
+                >Instagram</a
+              >
+            </div>
+          </div>
+          <div class="image">
+            <img src="public/gabriel.png" alt="Gabriel Serafim" />
+          </div>
+        </div>
+        <!-- -------------------------------------------------------------- -->
+        <div class="aluno about">
+          <div class="about-text">
+            <h2>Gustavo Andrade</h2>
+            <p>
+              Sou um estudante apaixonado por tecnologia que acredita que
+              programar é muito mais do que escrever linhas de código — é
+              resolver problemas, criar soluções inovadoras e construir o futuro
+              digital.
+            </p>
+            <p>
+              Neste espaço reúno sistemas validados, padrões de projeto
+              eficientes e tendências sobre o ecossistema de software para
+              inspirar tanto estudantes quanto engenheiros veteranos no mercado.
+            </p>
+            <div class="links">
+              <a href="https://www.linkedin.com/in/gustavo-andrade-119a23403/"
+                >LinkediIn</a
+              >
+              <a href="https://github.com/Gustavo40158">GitHub</a>
+              <a href="https://www.instagram.com/_araujzzlv/">Instagram</a>
+            </div>
+          </div>
+          <div class="image">
+            <img src="public/gustavo.png" alt="Gustavo Andrade" />
+          </div>
+        </div>
+        <!-- -------------------------------------------------------------- -->
+        <div class="aluno about">
+          <div class="about-text">
+            <h2>Venancio Trancoso</h2>
+            <p>
+              Somos estudantes apaixonados por gastronomia que acreditam que
+              cozinhar é muito mais do que seguir uma lista de ingredientes — é
+              contar histórias, preservar culturas e criar memórias afetivas.
+            </p>
+            <p>
+              Neste espaço reunimos receitas testadas, técnicas acessíveis e
+              curiosidades sobre o universo culinário para inspirar tanto
+              iniciantes quanto cozinheiros experientes.
+            </p>
+            <div class="links">
+              <a
+                href="https://www.linkedin.com/in/venancio-trancoso-16a9a13b3?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                >LinkediIn</a
+              >
+              <a href="">GitHub</a>
+              <a href="">Instagram</a>
+            </div>
+          </div>
+          <div class="image">
+            <img src="public/venancio.png" alt="Venancio Trancoso" />
+          </div>
+        </div>
+        <!-- -------------------------------------------------------------- -->
+      </section>
 
+      <!-- CATEGORIAS -->
+      <section class="categories" id="receitas">
+        <div class="section-header">
+          <span class="tag">Nossas categorias</span>
+          <h2>O que você quer preparar hoje?</h2>
+        </div>
 
-  <!-- FOOTER -->
-  <footer>
-    <!-- FRASE DE DESTAQUE -->
-    <section class="quote-band">
-      <blockquote>
-        "Cozinhar é um ato de amor — para com quem recebe o prato e
-        para com quem o preparou."
-        <cite>— Sabor &amp; Arte</cite>
-      </blockquote>
-    </section>
-    <p>Desenvolvido por <strong>Leonardo S. Souza | Gabriel Serafim | Venancio Trancoso | Gustavo
-        Andrade</strong> · Trabalho Acadêmico · 2026</p>
-  </footer>
+        <div class="cards-grid">
+          <a
+            href="src/pages/receita_de_paes/index_paes.html"
+            class="card card-paes"
+          >
+            <div class="card-thumb">🍞</div>
+            <div class="card-body">
+              <h3>Pães</h3>
+              <p>
+                Do pão caseiro rústico ao brioche aerado — aprenda a fermentar,
+                sovar e assar pães incríveis em casa.
+              </p>
+              <span class="card-link">Ver receitas →</span>
+            </div>
+          </a>
 
-</body>
+          <a
+            href="src/pages/receita_de_bolos/index_bolos.html"
+            class="card card-bolos"
+          >
+            <div class="card-thumb">🎂</div>
+            <div class="card-body">
+              <h3>Bolos</h3>
+              <p>
+                Bolos simples de batedeira, naked cakes sofisticados e tudo que
+                faz uma sobremesa virar memória afetiva.
+              </p>
+              <span class="card-link">Ver receitas →</span>
+            </div>
+          </a>
 
+          <a
+            href="src/pages/receita_de_massas/index_massas.html"
+            class="card card-massas"
+          >
+            <div class="card-thumb">🍝</div>
+            <div class="card-body">
+              <h3>Massas</h3>
+              <p>
+                Macarrão artesanal, molhos clássicos e combinações que
+                transformam a hora do jantar em algo especial.
+              </p>
+              <span class="card-link">Ver receitas →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <!-- FRASE DE DESTAQUE -->
+      <section class="quote-band">
+        <blockquote>
+          "Cozinhar é um ato de amor — para com quem recebe o prato e para com
+          quem o preparou."
+          <cite>— Sabor &amp; Arte</cite>
+        </blockquote>
+      </section>
+      <p>
+        Desenvolvido por
+        <strong
+          >Leonardo S. Souza | Gabriel Serafim | Venancio Trancoso | Gustavo
+          Andrade</strong
+        >
+        · Trabalho Acadêmico · 2026
+      </p>
+    </footer>
+  </body>
 </html>
