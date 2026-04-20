@@ -1,18 +1,12 @@
-
-
-
-
 main.receitas {
   width: 70dvw;
   position: relative;
-  top: 3vh;      
+  top: 3vh;
   margin: 0 auto;
   padding: 2.5rem 1.5rem 5rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
-
-
 }
 
 .introdução {
@@ -25,7 +19,7 @@ main.receitas {
   font-family: var(--font-titulo);
   font-size: clamp(2rem, 5vw, 2.8rem);
   font-weight: 700;
-  color: var(--fff);
+  color: var(--primary);
   line-height: 1.15;
 }
 
@@ -70,7 +64,7 @@ main.receitas {
 }
 
 .receita-meta__item::after {
-  content: '·';
+  content: "·";
   margin-left: 0.75rem;
   color: var(--border);
 }
@@ -110,7 +104,7 @@ main.receitas {
 /* Linha decorativa no título */
 .ingredientes h2::before,
 .modo_de_preparo h2::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 4px;
   height: 1.2em;
@@ -153,7 +147,7 @@ main.receitas {
 
 /* Bolinha decorativa */
 .ingredientes ul li::before {
-  content: '';
+  content: "";
   width: 7px;
   height: 7px;
   border-radius: 50%;
@@ -187,7 +181,9 @@ main.receitas {
   font-size: 0.95rem;
   line-height: 1.75;
   color: var(--text);
-  transition: border-color var(--transicao), box-shadow var(--transicao);
+  transition:
+    border-color var(--transicao),
+    box-shadow var(--transicao);
 }
 
 .modo_de_preparo ol li:hover {

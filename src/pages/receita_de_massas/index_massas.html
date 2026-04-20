@@ -1,223 +1,345 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sabor & Arte — Gastronomia com Alma</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="../../styles/base/reset.css">
-    <link rel="stylesheet" href="../../styles/global.css">
+    <link rel="stylesheet" href="../../styles/base/reset.css" />
+    <link rel="stylesheet" href="../../styles/global.css" />
 
-    <link rel="stylesheet" href="../../styles/layout/header.css">
-    <link rel="stylesheet" href="../../styles/layout/footer.css">
+    <link rel="stylesheet" href="../../styles/layout/header.css" />
+    <link rel="stylesheet" href="../../styles/layout/footer.css" />
 
-    <link rel="stylesheet" href="../../styles/layout/index_receitas.css">
+    <link rel="stylesheet" href="../../styles/layout/index_receitas.css" />
+  </head>
 
-
-
-
-
-
-</head>
-
-<body>
-
+  <body>
     <!-- header - navbar-->
     <header>
-        <nav>
-            <a class="nav-logo" href="../../../index.html">Sabor &amp; Arte</a>
-            <ul class="nav-links">
-                <li><a href="#receitas">Receitas</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <a class="nav-logo" href="../../../index.html">Sabor &amp; Arte</a>
+        <ul class="nav-links">
+          <li><a href="#receitas">Receitas</a></li>
+        </ul>
+      </nav>
     </header>
 
     <span id="receitas"></span>
 
     <main class="receitas">
+      <section class="introdução">
+        <div class="intro-ornament-top"></div>
+        <div class="intro-content">
+          <span class="intro-label">receitas artesanais</span>
+          <h1 class="intro-title">Massas</h1>
+          <div class="intro-divider">
+            <span class="intro-divider-line"></span>
+            <svg class="intro-divider-icon" viewBox="0 0 18 18" fill="none">
+              <path
+                d="M9 2v3M9 13v3M2 9h3M13 9h3"
+                stroke="currentColor"
+                stroke-width="1.4"
+                stroke-linecap="round"
+              />
+              <circle
+                cx="9"
+                cy="9"
+                r="3"
+                stroke="currentColor"
+                stroke-width="1.4"
+              />
+            </svg>
+            <span class="intro-divider-line"></span>
+          </div>
+          <p class="intro-desc">
+            A arte de fazer com as mãos o que o coração já sabe de cor. Receitas
+            que <em>pedem paciência, rendem afeto</em> e chegam à mesa como um
+            gesto de cuidado.
+          </p>
+        </div>
+        <div class="intro-ornament"></div>
+      </section>
 
-        <section class="introdução">
-            <div class="intro-ornament-top"></div>
-            <div class="intro-content">
-                <span class="intro-label">receitas artesanais</span>
-                <h1 class="intro-title">Massas</h1>
-                <div class="intro-divider">
-                    <span class="intro-divider-line"></span>
-                    <svg class="intro-divider-icon" viewBox="0 0 18 18" fill="none">
-                        <path d="M9 2v3M9 13v3M2 9h3M13 9h3" stroke="currentColor" stroke-width="1.4"
-                            stroke-linecap="round" />
-                        <circle cx="9" cy="9" r="3" stroke="currentColor" stroke-width="1.4" />
-                    </svg>
-                    <span class="intro-divider-line"></span>
-                </div>
-                <p class="intro-desc">
-                    A arte de fazer com as mãos o que o coração já sabe de cor.
-                    Receitas que <em>pedem paciência, rendem afeto</em> e chegam
-                    à mesa como um gesto de cuidado.
-                </p>
+      <section class="main_content">
+        <h2 class="section-title">Mais Populares</h2>
+        <div class="recipes-grid" id="recipesGrid">
+          <!-- Card em destaque -->
+          <article class="recipe-card featured" data-cat="salgados">
+            <div class="card-image">
+              <img
+                src="https://imgs.search.brave.com/v1WzaDlprlqCSPIzjsU84_dpW65WrVX2JLCVPSJtCNs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YWxscmVjaXBlcy5j/b20vdGhtYi9CclNk/RjBtSFRVVEpZZXMz/V3RBNk9oRl9qc1E9/LzB4NTEyL2ZpbHRl/cnM6bm9fdXBzY2Fs/ZSgpOm1heF9ieXRl/cygxNTAwMDApOnN0/cmlwX2ljYygpOmZv/cm1hdCh3ZWJwKS9B/TFItODUxMzU0NS1w/ZW5uZS1hbGxhLXZv/ZGthLVZBVC1oZXJv/LTR4My0yLTRhNTNj/OTY4YzNkOTRhMzI4/MTZmMDFmNTc5Mzcw/MmNlLmpwZw"
+                alt="Penne alla Vodka"
+              />
+              <span class="badge badge-category">Salgados</span>
+              <span class="badge badge-featured">Destaque</span>
             </div>
-            <div class="intro-ornament"></div>
-        </section>
-
-        <section class="main_content">
-            <h2 class="section-title">Mais Populares</h2>
-            <div class="recipes-grid" id="recipesGrid">
-
-                <!-- Card em destaque -->
-                <article class="recipe-card featured" data-cat="doces">
-                    <div class="card-image">
-                        <img src="https://placehold.co/600x400/D2691E/FFF8F0?text=Receita+em+Destaque"
-                            alt="Bolo de Mel" />
-                        <span class="badge badge-category">Doces</span>
-                        <span class="badge badge-featured">Destaque</span>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">Bolo de Mel com Especiarias</h3>
-                        <p class="card-desc">Um bolo úmido e aromático com gengibre, canela e mel artesanal. Perfeito
-                            para o café da manhã ou lanche da tarde.</p>
-                        <div class="card-meta">
-                            <span class="meta-item">
-                                <svg viewBox="0 0 16 16" fill="none">
-                                    <circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.2" />
-                                    <path d="M8 5v3.5l2.5 1.5" stroke="currentColor" stroke-width="1.2"
-                                        stroke-linecap="round" />
-                                </svg>
-                                45 min
-                            </span>
-                            <span class="meta-item">
-                                <svg viewBox="0 0 16 16" fill="none">
-                                    <path d="M2 13c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="currentColor"
-                                        stroke-width="1.2" />
-                                    <circle cx="8" cy="5" r="2.5" stroke="currentColor" stroke-width="1.2" />
-                                </svg>
-                                8 porções
-                            </span>
-                            <span class="meta-item difficulty medium">Médio</span>
-                        </div>
-                        <a href="#" class="card-link">Ver receita completa →</a>
-                    </div>
-                </article>
-
-                <!-- Cards normais -->
-                <article class="recipe-card" data-cat="salgados">
-                    <div class="card-image">
-                        <img src="https://placehold.co/400x280/8B4513/FFF8F0?text=Pão+Artesanal" alt="Pão Artesanal" />
-                        <span class="badge badge-category">Salgados</span>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">Pão Artesanal de Fermentação Natural</h3>
-                        <p class="card-desc">Crocante por fora, macio por dentro. Uma receita que vale cada hora de
-                            espera.</p>
-                        <div class="card-meta">
-                            <span class="meta-item">
-                                <svg viewBox="0 0 16 16" fill="none">
-                                    <circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.2" />
-                                    <path d="M8 5v3.5l2.5 1.5" stroke="currentColor" stroke-width="1.2"
-                                        stroke-linecap="round" />
-                                </svg>
-                                3h 20min
-                            </span>
-                            <span class="meta-item difficulty hard">Avançado</span>
-                        </div>
-                        <a href="#" class="card-link">Ver receita completa →</a>
-                    </div>
-                </article>
-
-                <article class="recipe-card" data-cat="doces">
-                    <div class="card-image">
-                        <img src="https://placehold.co/400x280/6B8E23/FFF8F0?text=Torta+de+Maçã" alt="Torta de Maçã" />
-                        <span class="badge badge-category">Doces</span>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">Torta Rústica de Maçã com Canela</h3>
-                        <p class="card-desc">Uma torta simples e reconfortante que lembra as receitas de vó.</p>
-                        <div class="card-meta">
-                            <span class="meta-item">
-                                <svg viewBox="0 0 16 16" fill="none">
-                                    <circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.2" />
-                                    <path d="M8 5v3.5l2.5 1.5" stroke="currentColor" stroke-width="1.2"
-                                        stroke-linecap="round" />
-                                </svg>
-                                1h 10min
-                            </span>
-                            <span class="meta-item difficulty easy">Fácil</span>
-                        </div>
-                        <a href="#" class="card-link">Ver receita completa →</a>
-                    </div>
-                </article>
-
-                <article class="recipe-card" data-cat="bebidas vegano">
-                    <div class="card-image">
-                        <img src="https://placehold.co/400x280/D2691E/FFF8F0?text=Limonada+Rosa" alt="Limonada Rosa" />
-                        <span class="badge badge-category">Bebidas</span>
-                        <span class="badge badge-vegan">Vegano</span>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">Limonada Rosa com Hibisco</h3>
-                        <p class="card-desc">Refrescante e cheia de cor, essa bebida é sucesso garantido nas reuniões de
-                            família.</p>
-                        <div class="card-meta">
-                            <span class="meta-item">
-                                <svg viewBox="0 0 16 16" fill="none">
-                                    <circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.2" />
-                                    <path d="M8 5v3.5l2.5 1.5" stroke="currentColor" stroke-width="1.2"
-                                        stroke-linecap="round" />
-                                </svg>
-                                15 min
-                            </span>
-                            <span class="meta-item difficulty easy">Fácil</span>
-                        </div>
-                        <a href="#" class="card-link">Ver receita completa →</a>
-                    </div>
-                </article>
-
-                <article class="recipe-card" data-cat="vegano salgados">
-                    <div class="card-image">
-                        <img src="https://placehold.co/400x280/6B8E23/FFF8F0?text=Quiche+Vegana" alt="Quiche Vegana" />
-                        <span class="badge badge-category">Salgados</span>
-                        <span class="badge badge-vegan">Vegano</span>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">Quiche Vegana de Alho-Poró</h3>
-                        <p class="card-desc">Uma quiche cremosa e saborosa sem ovos nem laticínios. Surpreendente!</p>
-                        <div class="card-meta">
-                            <span class="meta-item">
-                                <svg viewBox="0 0 16 16" fill="none">
-                                    <circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.2" />
-                                    <path d="M8 5v3.5l2.5 1.5" stroke="currentColor" stroke-width="1.2"
-                                        stroke-linecap="round" />
-                                </svg>
-                                55 min
-                            </span>
-                            <span class="meta-item difficulty medium">Médio</span>
-                        </div>
-                        <a href="#" class="card-link">Ver receita completa →</a>
-                    </div>
-                </article>
-
+            <div class="card-body">
+              <h3 class="card-title">Macarrão Penne alla Vodka</h3>
+              <p class="card-desc">
+                Penne alla Vodka é um prato de massa penne com molho de tomate e
+                creme, no qual a vodka é usada para emulsificar a mistura e
+                realçar os sabores, especialmente a acidez do tomate. Embora a
+                maior parte do álcool evapore durante o cozimento, o prato final
+                contém apenas uma quantidade mínima residual.
+              </p>
+              <div class="card-meta">
+                <span class="meta-item">
+                  <svg viewBox="0 0 16 16" fill="none">
+                    <circle
+                      cx="8"
+                      cy="8"
+                      r="6.5"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                    />
+                    <path
+                      d="M8 5v3.5l2.5 1.5"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                  35 minutos
+                </span>
+                <span class="meta-item">
+                  <svg viewBox="0 0 16 16" fill="none">
+                    <path
+                      d="M2 13c0-3.3 2.7-6 6-6s6 2.7 6 6"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                    />
+                    <circle
+                      cx="8"
+                      cy="5"
+                      r="2.5"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                    />
+                  </svg>
+                  8 porções
+                </span>
+                <span class="meta-item difficulty medium">Médio</span>
+              </div>
+              <a
+                href="../receita_de_massas/penne-alla-vodka.html"
+                class="card-link"
+                >Ver receita completa →</a
+              >
             </div>
-        </section>
+          </article>
+
+          <!-- Cards normais -->
+          <article class="recipe-card" data-cat="salgados">
+            <div class="card-image">
+              <img
+                src="https://imgs.search.brave.com/henjSPbNUmXI0QFy-9l5cXGU_y4fMQJzno16TUBtTKg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/am9ybmFsb3NlbWFu/YXJpby5jb20uYnIv/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDQvTWFjYXJyYW8t/cHJlZ3VpY29zby5q/cGc"
+                alt="Macarrão Preguiçoso"
+              />
+              <span class="badge badge-category">Salgados</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Macarrão Preguiçoso</h3>
+              <p class="card-desc">
+                O Macarrão Preguiçoso é uma receita prática que cozinha o
+                macarrão cru diretamente no forno, sem necessidade de ferver
+                água em panelas separadas. A base comum inclui macarrão cru,
+                molho de tomate, água quente e temperos, cozidos em um
+                refratário.
+              </p>
+              <div class="card-meta">
+                <span class="meta-item">
+                  <svg viewBox="0 0 16 16" fill="none">
+                    <circle
+                      cx="8"
+                      cy="8"
+                      r="6.5"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                    />
+                    <path
+                      d="M8 5v3.5l2.5 1.5"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                  25 minutos
+                </span>
+                <span class="meta-item difficulty easy">Fácil</span>
+              </div>
+              <a
+                href="../receita_de_massas/macarrao-preguicoso.html"
+                class="card-link"
+                >Ver receita completa →</a
+              >
+            </div>
+          </article>
+
+          <article class="recipe-card" data-cat="salgados">
+            <div class="card-image">
+              <img
+                src="https://imgs.search.brave.com/B38FrGohcTmSlxs67rc1S87ABIkGIZTy4Tyno6wI5y8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cmVjZWl0ZXJpYS5j/b20uYnIvd3AtY29u/dGVudC91cGxvYWRz/L21hY2FycmFvLWFs/aG8tZS1vbGVvLTgu/anBn"
+                alt="Macarrão ao Alho e Óleo"
+              />
+              <span class="badge badge-category">Salgados</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Macarrão ao Alho e Óleo</h3>
+              <p class="card-desc">
+                O macarrão ao alho e óleo é um prato clássico da culinária
+                italiana, conhecido como Aglio e Olio, que combina simplicidade
+                e sabor intenso. Apesar da receita básica ter poucos
+                ingredientes, o sucesso do prato depende da qualidade do azeite
+                extravirgem e do uso de alho fresco, evitando versões em pó ou
+                industrializadas, que comprometem o sabor.
+              </p>
+              <div class="card-meta">
+                <span class="meta-item">
+                  <svg viewBox="0 0 16 16" fill="none">
+                    <circle
+                      cx="8"
+                      cy="8"
+                      r="6.5"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                    />
+                    <path
+                      d="M8 5v3.5l2.5 1.5"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                  20 minutos
+                </span>
+                <span class="meta-item difficulty easy">Fácil</span>
+              </div>
+              <a
+                href="../receita_de_massas/macarrao-alho-oleo.html"
+                class="card-link"
+                >Ver receita completa →</a
+              >
+            </div>
+          </article>
+
+          <article class="recipe-card" data-cat="salgados">
+            <div class="card-image">
+              <img
+                src="https://imgs.search.brave.com/dSk01ffQ3ybXoK3RqdoyBJQ9ifPJcMlzgUQ7NHd2z5g/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzM0Lzk5Lzg4/LzM2MF9GXzEzNDk5/ODgyOV9lVkI3NnZx/RWh6NnpTQURQOWFP/RTBaSWFDZWQwUnJF/di5qcGc"
+                alt="Pizza Margherita"
+              />
+              <span class="badge badge-category">Salgados</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Pizza Margherita</h3>
+              <p class="card-desc">
+                Criada no ano de 1889 pelo pizzaiolo Rafaelle Esposito, para
+                homenagear a rainha Margarida de Saboia por ter encontrado
+                solução em um momento histórico importante, devolvendo água
+                potável para os italianos de Nápoles.
+              </p>
+              <div class="card-meta">
+                <span class="meta-item">
+                  <svg viewBox="0 0 16 16" fill="none">
+                    <circle
+                      cx="8"
+                      cy="8"
+                      r="6.5"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                    />
+                    <path
+                      d="M8 5v3.5l2.5 1.5"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                  1h30h
+                </span>
+                <span class="meta-item difficulty medium">Médio</span>
+              </div>
+              <a
+                href="../receita_de_massas/pizza-margherita.html"
+                class="card-link"
+                >Ver receita completa →</a
+              >
+            </div>
+          </article>
+
+          <article class="recipe-card" data-cat="doces e salgados">
+            <div class="card-image">
+              <img
+                src="https://imgs.search.brave.com/JynOiFyyUC8PrUVYNXnqatkDcVhcnti1Caego2ZpRak/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cmVjZWl0ZXJpYS5j/b20uYnIvd3AtY29u/dGVudC91cGxvYWRz/L3BhbnF1ZWNhcy1k/ZS1taWxoby1yZWNo/ZWFkYXMtY29tLWZy/YW5nby03MzB4NDgw/LmpwZw"
+                alt="Panqueca Recheada"
+              />
+              <span class="badge badge-category">Doces e Salgados</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Panqueca Recheada</h3>
+              <p class="card-desc">
+                A panqueca recheada é uma opção versátil e saborosa para
+                refeições principais ou até sobremesas, podendo ser preparada
+                com recheios salgados — como carne moída, frango desfiado ou
+                queijo — ou doces, como brigadeiro e chocolate. A massa básica é
+                geralmente feita com ovos, leite, farinha de trigo e sal, batida
+                no liquidificador para garantir uma textura lisa e uniforme.
+              </p>
+              <div class="card-meta">
+                <span class="meta-item">
+                  <svg viewBox="0 0 16 16" fill="none">
+                    <circle
+                      cx="8"
+                      cy="8"
+                      r="6.5"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                    />
+                    <path
+                      d="M8 5v3.5l2.5 1.5"
+                      stroke="currentColor"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                  50 minutos
+                </span>
+                <span class="meta-item difficulty medium">Médio</span>
+              </div>
+              <a
+                href="../receita_de_massas/panqueca-recheada.html"
+                class="card-link"
+                >Ver receita completa →</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
     </main>
-
 
     <!-- FOOTER -->
     <footer>
-        <!-- FRASE DE DESTAQUE -->
-        <section class="quote-band">
-            <blockquote>
-                "Cozinhar é um ato de amor — para com quem recebe o prato e
-                para com quem o preparou."
-                <cite>— Sabor &amp; Arte</cite>
-            </blockquote>
-        </section>
-        <p>Desenvolvido por <strong>Leonardo S. Souza | Gabriel Serafim | Venancio Trancoso | Gustavo
-                Andrade</strong> · Trabalho Acadêmico · 2026</p>
+      <!-- FRASE DE DESTAQUE -->
+      <section class="quote-band">
+        <blockquote>
+          "Cozinhar é um ato de amor — para com quem recebe o prato e para com
+          quem o preparou."
+          <cite>— Sabor &amp; Arte</cite>
+        </blockquote>
+      </section>
+      <p>
+        Desenvolvido por
+        <strong
+          >Leonardo S. Souza | Gabriel Serafim | Venancio Trancoso | Gustavo
+          Andrade</strong
+        >
+        · Trabalho Acadêmico · 2026
+      </p>
     </footer>
-
-</body>
-
+  </body>
 </html>
