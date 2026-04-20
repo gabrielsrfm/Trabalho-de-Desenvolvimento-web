@@ -1,7 +1,7 @@
 # Trabalho de Desenvolvimento Web
 
 ## Descrição do Projeto
-Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento Web. O site é focado na apresentação de receitas culinárias, estruturado para facilitar a navegação e a leitura dos conteúdos.
+Este projeto foi desenvolvido como parte da disciplina de Laboratório de Programação de Web. O site é focado na apresentação de receitas culinárias, estruturado para facilitar a navegação e a leitura dos conteúdos.
 
 ## Desenvolvedores
 Este projeto foi desenvolvido em colaboração:
