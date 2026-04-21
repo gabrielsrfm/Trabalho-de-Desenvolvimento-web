@@ -1,22 +1,21 @@
-
 :root {
-  --primary:    #8B4513;
-  --secondary:  #D2691E;
-  --accent:     #6B8E23;
-  --background: #FFF8F0;
-  --fff:        #FFFFFF;
-  --text:       #271e1d;
+  --primary: #8b4513;
+  --secondary: #d2691e;
+  --accent: #6b8e23;
+  --background: #fff8f0;
+  --fff: #ffffff;
+  --text: #271e1d;
 
   /* Derivadas */
-  --primary-light:    #f5e9de;
-  --secondary-light:  #faeade;
-  --accent-light:     #eef2e3;
-  --border:           #e4d5c3;
-  --text-suave:       #7a5a48;
-  --text-muted:       #a88470;
+  --primary-light: #f5e9de;
+  --secondary-light: #faeade;
+  --accent-light: #eef2e3;
+  --border: #e4d5c3;
+  --text-suave: #7a5a48;
+  --text-muted: #a88470;
 
-  --font-titulo: 'Playfair Display', Georgia, serif;
-  --font-corpo:  'Lato', system-ui, sans-serif;
+  --font-titulo: "Playfair Display", Georgia, serif;
+  --font-corpo: "Lato", system-ui, sans-serif;
 
   --raio-sm: 6px;
   --raio-md: 12px;
@@ -28,11 +27,23 @@
   --max-width: 780px;
 }
 
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
+.fácil {
+  background-color: #e8f5e9;
+  color: #5a3b25;
+}
 
+.médio {
+  background-color: #fff8e1;
+  color: #5a3b25;
+}
+
+.avançado {
+  background-color: #ffebee;
+  color: #5a3b25;
+}
