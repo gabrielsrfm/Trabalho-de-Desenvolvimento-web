@@ -43,5 +43,5 @@ cd Trabalho-de-Desenvolvimento-web
 ## • Preview
 
 <img width="1892" height="1034" alt="Captura de tela 2026-04-19 220035" src="https://github.com/user-attachments/assets/44051b00-14f3-4bf8-9cfb-7d02c90d5e5f" />
-
+<br>
 <img width="1897" height="1030" alt="image" src="https://github.com/user-attachments/assets/f62d0761-498f-46fb-a8aa-e00b4f40579c" />
